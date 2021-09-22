@@ -1,0 +1,164 @@
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+/* Remove all animations and transitions
+   for people that prefer not to see 
+   them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Making sure it inherits 100% of the 
+   user font size settings */
+html {
+  font-size: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: ;
+  color: ;
+}
+
+::-moz-selection {
+  background-color: ;
+  color: ;
+}
+
+/**
+ * Screen Reader Class
+ * 
+ * To hide content visually.
+ *
+ * For more information: https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034
+ */
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+         clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+body {
+  background-color: ;
+  color: ;
+  font: 1rem/1.6 sans-serif;
+}
+
+p {
+  font-size: 1em;
+}
+
+noscript {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  line-height: 1.6;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/**
+ * Style Broken Images
+ * Source: https://bitsofco.de/styling-broken-images/
+ * */
+img::before { 
+  content: "We're sorry, the image below is broken :(";
+  display: block;
+  margin-bottom: 0.625rem;
+}
+
+
+img:after { 
+  content: "(url: " attr(src) ")";
+  display: block;
+  font-size: 0.75rem;
+}
+
+/** 
+ * Hide Autoplay Videos That Aren't 
+ * Muted
+ *
+ * Source: https://github.com/AllThingsSmitty/css-protips#hide-autoplay-videos-that-arent-muted
+ * */
+video[autoplay]:not([muted]) {
+  display: none;
+}
+
+/**
+ * Sighted keyboard users rely on focus 
+ * to determine where keyboard events go
+ * in the page. Make focus for form 
+ * elements stand out and consistent 
+ * then a browser's default 
+ * implementation.
+ *
+ * Source: https://github.com/AllThingsSmitty/css-protips#set-focus-for-form-elements
+ * */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: rgb(17, 17, 17) dotted 0.125em;
+  outline-offset: 0.05em;
+}
+
+/**
+ * Set font-size on Form Elements for a 
+ * Better Mobile Experience
+ *
+ * To avoid mobile browsers (iOS Safari,
+ * et al.) from zooming in on HTML form 
+ * elements when a <select> drop-down is
+ * tapped, add font-size to the selector
+ * rule.
+ *
+ * Source: https://github.com/AllThingsSmitty/css-protips#set-font-size-on-form-elements-for-a-better-mobile-experience
+ * */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  font-size: 1rem;
+}
+
+/* Using currentColor to inherit the 
+   color value */
+svg path {
+  fill: currentColor;
+}
+
+/* Set "display: none" on Line Breaks 
+   Used as Spacing */
+br + br {
+  display: none;
+}
