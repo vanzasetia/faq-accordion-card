@@ -1,0 +1,46 @@
+@use "../abstracts" as *;
+
+/*------------------------------------*\
+  #ACCORDION
+\*------------------------------------*/
+.accordion__item {
+  padding: rem(7);
+  border-bottom: rem(1) solid $accordion-dividers;
+}
+
+.accordion__item:not(:first-child) {
+  margin-top: rem(16);
+}
+
+.accordion__trigger {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background: transparent;
+  width: 100%;
+  padding: rem(7) 0;
+  font-size: rem(13);
+  cursor: pointer;
+  
+  @include on-event {
+    color: $soft-red;
+  }
+}
+
+.accordion__icon {
+  @media screen and (prefers-reduced-motion: no-preference) {
+    transition: transform 200ms ease-in-out;
+  }
+}
+
+.accordion__trigger[aria-expanded="true"] {
+  font-weight: 700;
+}
+
+.accordion__trigger[aria-expanded="true"] .accordion__icon {
+  transform: rotate(180deg);
+}
+
+.accordion__description {
+  color: $dark-grayish-blue;
+}

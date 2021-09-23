@@ -473,6 +473,8 @@ body {
   justify-content: center;
   background: linear-gradient(to bottom, #af67e9, #6565e7);
   min-height: 100vh;
+  padding: 8.75rem 1.5rem 2.5rem;
+  color: #1d1e35;
   font: 0.75rem/1.6 "Kumbh Sans", sans-serif;
 }
 
@@ -541,7 +543,7 @@ select:focus,
 textarea:focus {
   box-shadow: none;
   outline: #111111 dotted 0.125em;
-  outline-offset: 0.05em;
+  outline-offset: 0.09em;
 }
 
 /**
@@ -563,14 +565,87 @@ textarea {
   font-size: 1rem;
 }
 
-/* Using currentColor to inherit the 
-   color value */
-svg path {
-  fill: currentColor;
-}
-
 /* Set "display: none" on Line Breaks 
    Used as Spacing */
 br + br {
   display: none;
+}
+
+@media screen and (max-width: 90em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+/*------------------------------------*\
+  #CARD
+\*------------------------------------*/
+.card {
+  position: relative;
+  border-radius: 2em;
+  width: 100%;
+  padding: 6.875rem 1.25rem 2.5rem;
+  background-color: white;
+  background-image: url("../images/bg-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card__title {
+  text-align: center;
+  font-size: 1.875rem;
+}
+
+.card__illustration {
+  position: absolute;
+  top: -6.875rem;
+}
+
+/*------------------------------------*\
+  #ACCORDION
+\*------------------------------------*/
+.accordion__item {
+  padding: 0.4375rem;
+  border-bottom: 0.0625rem solid #e7e7e9;
+}
+
+.accordion__item:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.accordion__trigger {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background: transparent;
+  width: 100%;
+  padding: 0.4375rem 0;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+.accordion__trigger:hover, .accordion__trigger:active {
+  color: #f47c57;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .accordion__icon {
+    transition: transform 200ms ease-in-out;
+  }
+}
+
+.accordion__trigger[aria-expanded=true] {
+  font-weight: 700;
+}
+
+.accordion__trigger[aria-expanded=true] .accordion__icon {
+  transform: rotate(180deg);
+}
+
+.accordion__description {
+  color: #787887;
 }

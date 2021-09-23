@@ -1,0 +1,30 @@
+@use "../abstracts" as *;
+
+/*------------------------------------*\
+  #CARD
+\*------------------------------------*/
+.card {
+  position: relative;
+  border-radius: 2em;
+  width: 100%;
+  padding: rem(110) rem(20) rem(40);
+  background-color: rgb(255, 255, 255);
+  background-image: url("../images/bg-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card__title {
+  text-align: center;
+  font-size: rem(30);
+}
+
+.card__illustration {
+  position: absolute;
+  top: -#{rem(110)};
+}
