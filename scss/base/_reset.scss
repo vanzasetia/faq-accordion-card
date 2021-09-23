@@ -1,3 +1,5 @@
+@use "../abstracts" as *;
+
 /*------------------------------------*\
   #BASE
 \*------------------------------------*/
@@ -27,13 +29,13 @@ html {
 }
 
 ::selection {
-  background-color: ;
-  color: ;
+  background-color: $selection-bg;
+  color: $selection-color;
 }
 
 ::-moz-selection {
-  background-color: ;
-  color: ;
+  background-color: $selection-bg;
+  color: $selection-color;
 }
 
 /**
@@ -58,9 +60,16 @@ html {
 }
 
 body {
-  background-color: ;
-  color: ;
-  font: 1rem/1.6 sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    $body-first-background-gradient-color,
+    $body-second-background-gradient-color
+  );
+  min-height: 100vh;
+  font: #{rem(12)}/1.6 "Kumbh Sans", sans-serif;
 }
 
 p {
