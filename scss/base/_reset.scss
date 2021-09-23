@@ -69,6 +69,8 @@ body {
     $body-second-background-gradient-color
   );
   min-height: 100vh;
+  padding: rem(140) rem(24) rem(40);
+  color: $very-dark-desaturated-blue;
   font: #{rem(12)}/1.6 "Kumbh Sans", sans-serif;
 }
 
@@ -138,7 +140,7 @@ select:focus,
 textarea:focus {
   box-shadow: none;
   outline: rgb(17, 17, 17) dotted 0.125em;
-  outline-offset: 0.05em;
+  outline-offset: 0.09em;
 }
 
 /**
@@ -160,14 +162,14 @@ textarea {
   font-size: 1rem;
 }
 
-/* Using currentColor to inherit the 
-   color value */
-svg path {
-  fill: currentColor;
-}
-
 /* Set "display: none" on Line Breaks 
    Used as Spacing */
 br + br {
   display: none;
+}
+
+.hide-for-mobile {
+  @media screen and (max-width: 90em) {
+    display: none;
+  }
 }
