@@ -34,9 +34,11 @@ I don't know which text that uses that color 😅.
 - [Element.setAttribute() - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 - [Element.hasAttribute() - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
 - [Element.getAttribute() - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
+- [Basic concepts of flexbox - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 ### Articles
 
 ### Tools
 - [CloudConvert](https://cloudconvert.com/) - It helps me to convert `ttf` format to `woff` and `woff2`.
 - [Website Responsive Testing Tool](responsivetesttool.com) - It really helps me to make this website responsive. If you want to use it, make sure there's a `.html` or else it will say **"invalid url"**.
+- [TalkBack](https://support.google.com/accessibility/android/answer/6283677?hl=en) - I used it to test this website on screen reader mode on Android.

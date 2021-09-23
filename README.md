@@ -101,7 +101,7 @@ Mobile
 ### What I Learned
 
 ### Useful Resources
-- [Accordion Example | WAI-ARIA Authoring Practices 1.1](https://w3c.github.io/aria-practices/examples/accordion/accordion.html) - I didn't know how to create an accessible accordion, but this example helps me out!
+- [Accordion Example | WAI-ARIA Authoring Practices 1.1](https://w3c.github.io/aria-practices/examples/accordion/accordion.html) - I didn't know how to create an accessible accordion, but this example helps me out! It tells me the exact markup and the explanation.
 
 <!-- ENDOF My Process -->
 
