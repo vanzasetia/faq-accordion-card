@@ -1,153 +1,306 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- SEO Meta Tags -->
-  <meta name="title" content="FAQ Accordion Card | Frontend Mentor Challenge">
-  <meta name="description" content="I have completed FAQ accordion card challenge from Frontend Mentor. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in! Feel free to take a look!">
-  <meta name="author" content="Vanza Setia, venusbumi2@gmail.com">
-  <meta name="url" content="https://vanzafaqaccordioncard.netlify.app/">
-  <meta name="robots" content="index,follow">
-  <!-- Open Graph Protocol -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="FAQ Accordion Card | Frontend Mentor Challenge">
-  <meta property="og:site_name" content="FAQ Accordion Card" />
-  <meta property="og:description" content="I have completed FAQ accordion card challenge from Frontend Mentor. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in! Feel free to take a look!">
-  <meta property="og:url" content="https://vanzafaqaccordioncard.netlify.app/">
-  <meta property="og:image" content="./design/desktop-preview.jpg">
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@vanzasetia">
-  <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="FAQ Accordion Card" />
-  <meta itemprop="description" content="I have completed FAQ accordion card challenge from Frontend Mentor. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in! Feel free to take a look!" />
-  <meta itemprop="image" content="./design/desktop-preview.jpg" />
-  <!-- Prevent Google From Showing Search Box -->
-  <meta name="google" content="nositelinkssearchbox">
-  <!-- Google Verification -->
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://vanzafaqaccordioncard.netlify.app/">
-  <!-- Others -->
-  <base href="/" />
-  <!-- Preload Font Family To Prevent Shifting Layout -->
-  <link rel="preload" href="./fonts/KumbhSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="./fonts/KumbhSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <!-- Directly Used Preloaded Fonts -->
-  <!-- prettier-ignore -->
-  <style>@font-face{font-family:"Kumbh Sans";font-style:normal;font-weight:700;font-display:swap;src:local("Kumbh Sans"), local("KumbhSans"), url("./fonts/KumbhSans-Bold.woff2") format("woff2"), url("./fonts/KumbhSans-Bold.woff") format("woff")}@font-face{font-family:"Kumbh Sans";font-style:normal;font-weight:400;font-display:swap;src:local("Kumbh Sans"), local("KumbhSans"), url("./fonts/KumbhSans-Regular.woff2") format("woff2"), url("./fonts/KumbhSans-Regular.woff") format("woff")}</style>
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/favicons/site.webmanifest">
-  <link rel="shortcut icon" href="/favicons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2d89ef">
-  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- JavaScript -->
-  <script defer src="./js/app.js"></script>
-  <!-- Android Dev Tools -->
-  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
-  <script>
-    eruda.init();
-  </script>
-  <title>FAQ Accordion Card | Frontend Mentor Challenge</title>
-</head>
-<body dir="ltr">
-  <main class="card">
-    <div class="card__container">
-      <div class="accordion">
-        <h1 class="card__title">FAQ</h1>
-        <div class="accordion__item">
-          <h2 class="accordion__heading">
-            <button id="firstAccordionBtn" class="accordion__trigger js-accordionBtn" type="button" aria-expanded="false" aria-controls="firstAccordion">
-              <span class="accordion__title">How many team members can I invite?</span>
-              <span class="accordion__icon" aria-hidden="true">
-                <svg class="accordion__svg" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-              </span>
-            </button>
-          </h2>
-          <div role="region" id="firstAccordion" class="accordion__panel js-accordionPanel" aria-labelledby="firstAccordionBtn" hidden>
-            <p class="accordion__description">
-              You can invite up to 2 additional users on the Free plan. There is no limit on 
-              team members for the Premium plan.
-            </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="title"
+      content="FAQ Accordion Card | Frontend Mentor Challenge"
+    />
+    <meta
+      name="description"
+      content="I have completed FAQ accordion card challenge from Frontend Mentor. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in! Feel free to take a look!"
+    />
+    <meta name="author" content="Vanza Setia, venusbumi2@gmail.com" />
+    <meta
+      name="url"
+      content="https://vanzafaqaccordioncard.netlify.app/"
+    />
+    <meta name="robots" content="index,follow" />
+    <!-- Open Graph Protocol -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="FAQ Accordion Card | Frontend Mentor Challenge"
+    />
+    <meta property="og:site_name" content="FAQ Accordion Card" />
+    <meta
+      property="og:description"
+      content="I have completed FAQ accordion card challenge from Frontend Mentor. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in! Feel free to take a look!"
+    />
+    <meta
+      property="og:url"
+      content="https://vanzafaqaccordioncard.netlify.app/"
+    />
+    <meta
+      property="og:image"
+      content="./design/desktop-preview.jpg"
+    />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@vanzasetia" />
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="FAQ Accordion Card" />
+    <meta
+      itemprop="description"
+      content="I have completed FAQ accordion card challenge from Frontend Mentor. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in! Feel free to take a look!"
+    />
+    <meta itemprop="image" content="./design/desktop-preview.jpg" />
+    <!-- Prevent Google From Showing Search Box -->
+    <meta name="google" content="nositelinkssearchbox" />
+    <!-- Google Verification -->
+
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://vanzafaqaccordioncard.netlify.app/"
+    />
+    <!-- Others -->
+    <base href="/" />
+    <!-- Preload Font Family To Prevent Shifting Layout -->
+    <link
+      rel="preload"
+      href="./fonts/KumbhSans-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/KumbhSans-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!-- Directly Used Preloaded Fonts -->
+    <!-- prettier-ignore -->
+    <style>@font-face{font-family:"Kumbh Sans";font-style:normal;font-weight:700;font-display:swap;src:local("Kumbh Sans"), local("KumbhSans"), url("./fonts/KumbhSans-Bold.woff2") format("woff2"), url("./fonts/KumbhSans-Bold.woff") format("woff")}@font-face{font-family:"Kumbh Sans";font-style:normal;font-weight:400;font-display:swap;src:local("Kumbh Sans"), local("KumbhSans"), url("./fonts/KumbhSans-Regular.woff2") format("woff2"), url("./fonts/KumbhSans-Regular.woff") format("woff")}</style>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta
+      name="msapplication-config"
+      content="/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JavaScript -->
+    <script defer src="./js/app.js"></script>
+    <!-- Android Dev Tools -->
+    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script>
+      eruda.init();
+    </script>
+    <title>FAQ Accordion Card | Frontend Mentor Challenge</title>
+  </head>
+  <body dir="ltr">
+    <main class="card">
+      <div class="card__container">
+        <div class="accordion">
+          <h1 class="card__title">FAQ</h1>
+          <div class="accordion__item">
+            <h2 class="accordion__heading">
+              <button
+                id="firstAccordionBtn"
+                class="accordion__trigger js-accordionBtn"
+                type="button"
+                aria-expanded="false"
+                aria-controls="firstAccordion"
+              >
+                <span class="accordion__title"
+                  >How many team members can I invite?</span
+                >
+                <span class="accordion__icon" aria-hidden="true">
+                  <!-- prettier-ignore -->
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="firstAccordion"
+              class="accordion__panel js-accordionPanel"
+              aria-labelledby="firstAccordionBtn"
+              hidden
+            >
+              <p class="accordion__description">
+                You can invite up to 2 additional users on the Free
+                plan. There is no limit on team members for the
+                Premium plan.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h2 class="accordion__heading">
+              <button
+                id="secondAccordionBtn"
+                class="accordion__trigger js-accordionBtn"
+                type="button"
+                aria-expanded="true"
+                aria-controls="secondAccordion"
+              >
+                <span class="accordion__title"
+                  >What is the maximum file upload size?</span
+                >
+                <span class="accordion__icon" aria-hidden="true">
+                  <!-- prettier-ignore -->
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="secondAccordion"
+              class="accordion__panel js-accordionPanel"
+              aria-labelledby="secondAccordionBtn"
+            >
+              <p class="accordion__description">
+                No more than 2GB. All files in your account must fit
+                your allotted storage space.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h2 class="accordion__heading">
+              <button
+                id="thirdAccordionBtn"
+                class="accordion__trigger js-accordionBtn"
+                type="button"
+                aria-expanded="false"
+                aria-controls="thirdAccordion"
+              >
+                <span class="accordion__title"
+                  >How do I reset my password?</span
+                >
+                <span class="accordion__icon" aria-hidden="true">
+                  <!-- prettier-ignore -->
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="thirdAccordion"
+              class="accordion__panel js-accordionPanel"
+              aria-labelledby="thirdAccordionBtn"
+              hidden
+            >
+              <p class="accordion__description">
+                Click “Forgot password” from the login page or “Change
+                password” from your profile page. A reset link will be
+                emailed to you.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h2 class="accordion__heading">
+              <button
+                id="fourthAccordionBtn"
+                class="accordion__trigger js-accordionBtn"
+                type="button"
+                aria-expanded="false"
+                aria-controls="fourthAccordion"
+              >
+                <span class="accordion__title"
+                  >Can I cancel my subscription?</span
+                >
+                <span class="accordion__icon" aria-hidden="true">
+                  <!-- prettier-ignore -->
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="fourthAccordion"
+              class="accordion__panel js-accordionPanel"
+              aria-labelledby="fourthAccordionBtn"
+              hidden
+            >
+              <p class="accordion__description">
+                Yes! Send us a message and we’ll process your request
+                no questions asked.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h2 class="accordion__heading">
+              <button
+                id="fifthAccordionBtn"
+                class="accordion__trigger js-accordionBtn"
+                type="button"
+                aria-expanded="false"
+                aria-controls="fifthAccordion"
+              >
+                <span class="accordion__title"
+                  >Do you provide additional support?</span
+                >
+                <span class="accordion__icon" aria-hidden="true">
+                  <!-- prettier-ignore -->
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              role="region"
+              id="fifthAccordion"
+              class="accordion__panel js-accordionPanel"
+              aria-labelledby="fifthAccordionBtn"
+              hidden
+            >
+              <p class="accordion__description">
+                Chat and email support is available 24/7. Phone lines
+                are open during normal business hours.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="accordion__item">
-          <h2 class="accordion__heading">
-            <button id="secondAccordionBtn" class="accordion__trigger js-accordionBtn" type="button" aria-expanded="true" aria-controls="secondAccordion">
-              <span class="accordion__title">What is the maximum file upload size?</span>
-              <span class="accordion__icon" aria-hidden="true">
-                <svg class="accordion__svg" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-              </span>
-            </button>
-          </h2>
-          <div role="region" id="secondAccordion" class="accordion__panel js-accordionPanel" aria-labelledby="secondAccordionBtn">
-            <p class="accordion__description">
-              No more than 2GB. All files in your account must fit your allotted storage space.
-            </p>
-          </div>
-        </div>
-        <div class="accordion__item">
-          <h2 class="accordion__heading">
-            <button id="thirdAccordionBtn" class="accordion__trigger js-accordionBtn" type="button" aria-expanded="false" aria-controls="thirdAccordion">
-              <span class="accordion__title">How do I reset my password?</span>
-              <span class="accordion__icon" aria-hidden="true">
-                <svg class="accordion__svg" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-              </span>
-            </button>
-          </h2>
-          <div role="region" id="thirdAccordion" class="accordion__panel js-accordionPanel" aria-labelledby="thirdAccordionBtn" hidden>
-            <p class="accordion__description">
-              Click “Forgot password” from the login page or “Change password” from your profile page.
-              A reset link will be emailed to you.
-            </p>
-          </div>
-        </div>
-        <div class="accordion__item">
-          <h2 class="accordion__heading">
-            <button id="fourthAccordionBtn" class="accordion__trigger js-accordionBtn" type="button" aria-expanded="false" aria-controls="fourthAccordion">
-              <span class="accordion__title">Can I cancel my subscription?</span>
-              <span class="accordion__icon" aria-hidden="true">
-                <svg class="accordion__svg" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-              </span>
-            </button>
-          </h2>
-          <div role="region" id="fourthAccordion" class="accordion__panel js-accordionPanel" aria-labelledby="fourthAccordionBtn" hidden>
-            <p class="accordion__description">
-              Yes! Send us a message and we’ll process your request no questions asked.
-            </p>
-          </div>
-        </div>
-        <div class="accordion__item">
-          <h2 class="accordion__heading">
-            <button id="fifthAccordionBtn" class="accordion__trigger js-accordionBtn" type="button" aria-expanded="false" aria-controls="fifthAccordion">
-              <span class="accordion__title">Do you provide additional support?</span>
-              <span class="accordion__icon" aria-hidden="true">
-                <svg class="accordion__svg" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-              </span>
-            </button>
-          </h2>
-          <div role="region" id="fifthAccordion" class="accordion__panel js-accordionPanel" aria-labelledby="fifthAccordionBtn" hidden>
-            <p class="accordion__description">
-              Chat and email support is available 24/7. Phone lines are open during normal business hours.
-            </p>
-          </div>
+        <div class="card__illustration" aria-hidden="true">
+          <picture class="card__picture">
+            <source
+              srcset="./images/illustration-woman-online-desktop.svg"
+              media="(min-width: 90em)"
+              type="image/svg+xml"
+            />
+            <img
+              src="./images/illustration-woman-online-mobile.svg"
+              alt=""
+              width="296"
+              height="196"
+            />
+          </picture>
+          <img
+            src="./images/illustration-box-desktop.svg"
+            alt=""
+            width="191"
+            height="184"
+            class="hide-for-mobile"
+          />
         </div>
       </div>
-      <div class="card__illustration" aria-hidden="true">
-        <picture class="card__picture">
-          <source srcset="./images/illustration-woman-online-desktop.svg" media="(min-width: 90em)" type="image/svg+xml">
-          <img src="./images/illustration-woman-online-mobile.svg" alt="" width="266" height="196">
-        </picture>
-        <img src="./images/illustration-box-desktop.svg" alt="" width="191" height="184" class="hide-for-mobile">
-      </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>

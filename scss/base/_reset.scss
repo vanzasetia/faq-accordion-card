@@ -46,16 +46,16 @@ html {
  * For more information: https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034
  */
 .sr-only {
-  border: 0 !important;
+  position: absolute !important;
+  margin: -1px !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
   -webkit-clip-path: inset(50%) !important;
-         clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
+          clip-path: inset(50%) !important;
+  border: 0 !important;
   padding: 0 !important;
-  position: absolute !important;
   width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
   white-space: nowrap !important;
 }
 
@@ -64,12 +64,12 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-    to bottom,
-    $body-first-background-gradient-color,
-    $body-second-background-gradient-color
+  to bottom,
+  $body-first-background-gradient-color,
+  $body-second-background-gradient-color
   );
+  padding: rem(140) rem(24) rem(90);
   min-height: 100vh;
-  padding: rem(140) rem(24) rem(40);
   color: $very-dark-desaturated-blue;
   font: #{rem(12)}/1.6 "Kumbh Sans", sans-serif;
 }
@@ -100,14 +100,14 @@ img {
  * Style Broken Images
  * Source: https://bitsofco.de/styling-broken-images/
  * */
-img::before { 
+img::before {
   content: "We're sorry, the image below is broken :(";
   display: block;
   margin-bottom: 0.625rem;
 }
 
 
-img:after { 
+img:after {
   content: "(url: " attr(src) ")";
   display: block;
   font-size: 0.75rem;
@@ -133,14 +133,10 @@ video[autoplay]:not([muted]) {
  *
  * Source: https://github.com/AllThingsSmitty/css-protips#set-focus-for-form-elements
  * */
-a:focus,
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  box-shadow: none;
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
   outline: rgb(17, 17, 17) dotted 0.125em;
   outline-offset: 0.09em;
+  box-shadow: none;
 }
 
 /**
@@ -155,10 +151,7 @@ textarea:focus {
  *
  * Source: https://github.com/AllThingsSmitty/css-protips#set-font-size-on-form-elements-for-a-better-mobile-experience
  * */
-input[type="text"],
-input[type="number"],
-select,
-textarea {
+input[type="text"], input[type="number"], select, textarea {
   font-size: 1rem;
 }
 

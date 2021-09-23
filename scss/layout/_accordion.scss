@@ -4,8 +4,8 @@
   #ACCORDION
 \*------------------------------------*/
 .accordion__item {
-  padding: rem(7);
   border-bottom: rem(1) solid $accordion-dividers;
+  padding: rem(3);
 }
 
 .accordion__item:not(:first-child) {
@@ -17,13 +17,13 @@
   justify-content: space-between;
   border: none;
   background: transparent;
-  width: 100%;
-  padding: rem(7) 0;
-  font-size: rem(13);
   cursor: pointer;
-  
+  padding: rem(7) 0;
+  width: 100%;
+  font-size: rem(13);
+
   @include on-event {
-    color: $soft-red;
+    color: $accordion-button-trigger-active-color;
   }
 }
 
@@ -42,5 +42,6 @@
 }
 
 .accordion__description {
-  color: $dark-grayish-blue;
+  margin: rem(3) 0;
+  color: $accordion-description-color;
 }

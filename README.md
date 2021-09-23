@@ -29,7 +29,7 @@
 <!-- ENDOF Other Badges -->
 
 <!-- Title -->
-# 
+# FAQ Accordion Card
 <!-- Title -->
 
 <!-- Table Of Contents -->
@@ -55,8 +55,20 @@
 [(Back to top)](#table-of-contents)
 
 ### Introduction
+Welcome to the `README.md` of this repo! In this file I'm going to tell you everything, start from what tool I use, how to contribute, and much more.
+
+This my first JavaScript challenge from Frontend Mentor after learning JavaScript for about one month.
+
+That's it for the introduction and **happy reading!**
 
 ### The Challenge
+The challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
+
+The users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
 
 ### Links
 - [🌐 Live Review](https://vanzafaqaccordioncard.netlify.app/)
@@ -89,6 +101,7 @@ Mobile
 ### What I Learned
 
 ### Useful Resources
+- [Accordion Example | WAI-ARIA Authoring Practices 1.1](https://w3c.github.io/aria-practices/examples/accordion/accordion.html) - I didn't know how to create an accessible accordion, but this example helps me out!
 
 <!-- ENDOF My Process -->
 
@@ -113,6 +126,9 @@ Just [follow the steps](https://github.com/vanzasetia/faq-accordion-card/blob/ma
 <!-- Acknowledgements -->
 ## Acknowledgements
 [(Back to top)](#table-of-contents)
+
+The motivation to create a great `README.md` is coming from [awesome-readme repository](https://github.com/matiassingers/awesome-readme/blob/master/readme.md) where it lists a lot of great projects with awesome `README.md`. That also my inspiration when I want to improve my `README.md`.
+
 <!-- END OF Acknowledgements -->
 
 <!-- LICENSE -->

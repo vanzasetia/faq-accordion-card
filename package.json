@@ -12,7 +12,7 @@
     "prettier": "npx prettier --write .",
     "semistandard:js": "semistandard --fix js/app.js",
     "comb:stylesheets": "csscomb css/ scss/ -v",
-    "format": "npm-run-all prettier comb:stylesheets standard:js",
+    "format": "npm-run-all prettier comb:stylesheets semistandard:js",
     
     "compile:sass": "sass scss/main.scss css/style.css --no-source-map",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css --output css/style.css",

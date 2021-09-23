@@ -6,17 +6,19 @@
 .card {
   position: relative;
   border-radius: 2em;
-  width: 100%;
-  padding: rem(110) rem(20) rem(40);
+  box-shadow: 0 rem(30) rem(40) rgba($card-box-shadow-color, 0.4);
   background-color: rgb(255, 255, 255);
   background-image: url("../images/bg-pattern-mobile.svg");
-  background-repeat: no-repeat;
   background-position: top center;
+  background-repeat: no-repeat;
+  padding: rem(110) rem(20) rem(50);
+  width: 100%;
 }
 
 .card__container {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
 }
 
 .card__title {
@@ -26,5 +28,5 @@
 
 .card__illustration {
   position: absolute;
-  top: -#{rem(110)};
+  top: -#{rem(100)};
 }
