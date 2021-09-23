@@ -6,7 +6,26 @@ $selection-bg: rgb(0, 201, 250) !default;
 $selection-color: $white !default;
 $focus-visible-color: rgb(255, 14, 166) !default;
 
-// Colors
+// Primary Colors
+// FOR: Text
+$very-dark-desaturated-blue: rgb(29, 30, 53);
+$soft-red: rgb(244, 124, 87);
+
+// FOR: Background Gradient
+$soft-violet: rgb(175, 103, 233);
+$soft-blue: rgb(101, 101, 231);
+
+// Neutral Color
+// FOR: Text
+$very-dark-grayish-blue: rgb(74, 75, 94);
+$dark-grayish-blue: rgb(120, 120, 135);
+
+// FOR: Dividers (Line)
+$light-grayish-blue: rgb(231, 231, 233);
+
+// Use Cases
+$body-first-background-gradient-color: $soft-violet;
+$body-second-background-gradient-color: $soft-blue;
 
 // Breakpoints
 // Note: If you user font-size setting is 16px, then this 'em' is equal to this in 'px'
