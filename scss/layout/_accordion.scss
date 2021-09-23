@@ -3,6 +3,28 @@
 /*------------------------------------*\
   #ACCORDION
 \*------------------------------------*/
+/**
+ * 1. I don't use "flex-basis" for the 
+ *    width since the parent element has 
+ *    "flex-direction: column-reverse;" 
+ *    which means that "flex-basis" 
+ *    controls the "height" of the 
+ *    elements 
+ *
+ * 2. Since flexbox behavior wants to
+ *    fit the children elements at the
+ *    smallest width, I set the width to
+ *    100% to make sure when the
+ *    "paragraph" element disappear, the
+ *    accordion still have full width
+ *    otherwise, the arrow icon and the
+ *    question text will get too near.
+ *
+ * */
+.accordion {
+  width: 100%; /* 1 */ /* 2 */
+}
+
 .accordion__item {
   border-bottom: rem(1) solid $accordion-dividers;
   padding: rem(3);
@@ -29,7 +51,7 @@
 
 .accordion__icon {
   @media screen and (prefers-reduced-motion: no-preference) {
-    transition: transform 200ms ease-in-out;
+    transition: transform 250ms ease-in-out;
   }
 }
 
