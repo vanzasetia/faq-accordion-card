@@ -91,9 +91,10 @@ Mobile
 
 ### Built With
 - HTML Semantic Tags
+- [BEM (Block, Element, Modifier)](https://sparkbox.com/foundry/bem_by_example) Class *Naming Convention*
 - [Sass](https://sass-lang.com/)
 - Vanilla JavaScript
-- Flexbox
+- CSS Flexbox
 - Mobile-first workflow
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [Eruda - mobile console browser](https://github.com/liriliri/eruda)
