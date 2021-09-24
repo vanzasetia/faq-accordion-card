@@ -11,6 +11,7 @@
   - [Web doc](#web-doc)
   - [Articles](#articles)
   - [Tools](#tools)
+  - [StackOverflow](#stackoverflow)
 
 ## Overview
 This the place where I document everything about this project. Feel free to take a look.
@@ -35,6 +36,9 @@ I don't know which text that uses that color 😅.
 - [Element.hasAttribute() - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
 - [Element.getAttribute() - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
 - [Basic concepts of flexbox - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+
+## StackOverflow
+- [Validation error: "The itemprop attribute was specified, but the element is not a property of any item"](https://stackoverflow.com/questions/29123445/validation-error-the-itemprop-attribute-was-specified-but-the-element-is-not#29124838)
 
 ### Articles
 
