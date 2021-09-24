@@ -151,5 +151,5 @@ For those of you who are wondering, why do I need to license this?
 
 [(Back to top)](#table-of-contents)
 
-> See the [documentation.](https://github.com/vanzasetia/faq-accordion-card/blob/master/docs/README.md)
+> See the [documentation.](./docs/README.md)
 <!-- ENDOF References -->
