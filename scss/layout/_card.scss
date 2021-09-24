@@ -7,10 +7,9 @@
   position: relative;
   border-radius: 2em;
   box-shadow: 0 rem(30) rem(40) rgba($card-box-shadow-color, 0.4);
-  background-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255) no-repeat;
   background-image: url("../images/bg-pattern-mobile.svg");
   background-position: top center;
-  background-repeat: no-repeat;
   padding: rem(110) rem(20) rem(50);
   width: 100%;
 }

@@ -47,6 +47,8 @@
   @include on-event {
     color: $accordion-button-trigger-active-color;
   }
+  
+  @include focus-visible;
 }
 
 .accordion__icon {

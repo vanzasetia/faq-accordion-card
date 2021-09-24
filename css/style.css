@@ -577,10 +577,9 @@ br + br {
   position: relative;
   border-radius: 2em;
   box-shadow: 0 1.875rem 2.5rem rgba(29, 30, 53, 0.4);
-  background-color: white;
+  background: white no-repeat;
   background-image: url("../images/bg-pattern-mobile.svg");
   background-position: top center;
-  background-repeat: no-repeat;
   padding: 6.875rem 1.25rem 3.125rem;
   width: 100%;
 }
@@ -649,6 +648,10 @@ br + br {
 }
 .accordion__trigger:hover, .accordion__trigger:active {
   color: #f47c57;
+}
+.accordion__trigger:focus-visible {
+  outline: 0.125em dotted #111111;
+  outline-offset: 0.09em;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {

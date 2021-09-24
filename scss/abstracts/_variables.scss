@@ -4,7 +4,7 @@ $black: rgb(17, 17, 17) !default;
 $white: rgb(242, 242, 242) !default;
 $selection-bg: rgb(0, 201, 250) !default;
 $selection-color: $white !default;
-$focus-visible-color: rgb(255, 14, 166) !default;
+$focus-visible-color: $black !default;
 
 // Primary Colors
 // FOR: Text
@@ -24,6 +24,7 @@ $dark-grayish-blue: rgb(120, 120, 135);
 $light-grayish-blue: rgb(231, 231, 233);
 
 // Use Cases
+$body-font-color: $very-dark-desaturated-blue;
 $body-first-background-gradient-color: $soft-violet;
 $body-second-background-gradient-color: $soft-blue;
 $card-box-shadow-color: $very-dark-desaturated-blue;
