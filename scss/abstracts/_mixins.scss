@@ -4,7 +4,7 @@
 // Focus Visible
 @mixin focus-visible() {
   &:focus-visible {
-    outline: rem(2) dashed $focus-visible-color;
+    outline: rem(2) dotted $focus-visible-color;
     outline-offset: rem(5);
   }
 }
