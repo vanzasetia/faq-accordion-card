@@ -70,6 +70,11 @@ The users should be able to:
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
+Additional challenge for accessibility:
+
+- User should be able to navigate this website using keyboard
+- User should be able to understand the page content when using screen reader
+
 ### Links
 - [🌐 Live Review](https://vanzafaqaccordioncard.netlify.app/)
 - [👨‍🏫 Frontend Mentor Solution]()
