@@ -591,6 +591,7 @@ br + br {
   background-position: top center;
   padding: 6.875rem 1.25rem 3.125rem;
   width: 100%;
+  max-width: 20.625rem;
 }
 
 .card__container {
