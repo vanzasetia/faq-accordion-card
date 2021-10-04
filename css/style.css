@@ -602,9 +602,9 @@ br + br {
 @media screen and (min-width: 64em) {
   .card {
     background-image: url("../images/bg-pattern-desktop.svg"), url("../images/illustration-woman-online-desktop.svg");
-    background-position: left center, left -6.25rem center;
+    background-position: left -6.25rem center, left -6.25rem center;
     background-size: 50%, 50%;
-    padding: 3.125rem;
+    padding: 3.125rem 9.375rem 3.125rem 3.125rem;
     max-width: 56.25rem;
     overflow: visible;
   }
