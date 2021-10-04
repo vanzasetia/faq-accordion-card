@@ -108,7 +108,7 @@ Additional challenge for accessibility:
 ## How To Contribute?
 [(Back to top)](#table-of-contents)
 
-Just [follow the steps](https://github.com/vanzasetia/faq-accordion-card/blob/master/CONTRIBUTING.md) and you are good to go.
+Just [follow the steps](./CONTRIBUTING.md) and you are good to go.
 
 **Happy Contributing!**
 <!-- ENDOF How To Contribute -->
@@ -134,7 +134,7 @@ The motivation to create a great `README.md` is coming from [awesome-readme repo
 ## License
 [(Back to top)](#table-of-contents)
 
->You can check out [the full license](https://github.com/vanzasetia/faq-accordion-card/blob/master/LICENSE)
+>You can check out [the full license](./LICENSE)
 
 This project is licensed under the terms of the MIT license.
 
