@@ -41,7 +41,6 @@
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [How to contribute](#how-to-contribute)
 - [Author](#author)
@@ -99,8 +98,6 @@ Additional challenge for accessibility:
 - Mobile-first workflow
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [Eruda - mobile console browser](https://github.com/liriliri/eruda)
-
-### What I Learned
 
 ### Useful Resources
 - [Accordion Example | WAI-ARIA Authoring Practices 1.1](https://w3c.github.io/aria-practices/examples/accordion/accordion.html) - I didn't know how to create an accessible accordion, but this example helps me out! It tells me the exact markup and the explanation.
