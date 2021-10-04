@@ -49,3 +49,4 @@ I don't know which text that uses that color 😅.
 - [TalkBack](https://support.google.com/accessibility/android/answer/6283677?hl=en) - I used it to test this website on screen reader mode on Android.
 - [Markup Validation Service](https://validator.w3.org/) - I validate my HTML markup with this tool.
 - [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I validate my CSS code with this tool.
+- [Site Shot](https://www.site-shot.com/) - I take screenshot with of my website with it.
