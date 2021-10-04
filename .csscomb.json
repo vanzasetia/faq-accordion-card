@@ -230,9 +230,6 @@
       "animation-fill-mode",
       "animation-play-state",
       "scroll-behavior"
-    ],
-    [
-      "$include"
     ]
   ]
 }
