@@ -18,9 +18,9 @@
     background-image: 
       url("../images/bg-pattern-desktop.svg"),
       url("../images/illustration-woman-online-desktop.svg");
-    background-position: left -#{rem(100)} center, left -#{rem(100)} center;
-    background-size: 50%, 50%;
-    padding: rem(50) rem(150) rem(50) rem(50);
+    background-position: left -#{rem(550)} top 60%, left -#{rem(100)} center;
+    background-size: 100%, 50%;
+    padding: rem(50) rem(130) rem(50) rem(50);
     max-width: rem(900);
     overflow: visible;
   }
