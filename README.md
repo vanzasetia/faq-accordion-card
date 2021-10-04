@@ -38,7 +38,7 @@
   - [Introduction](#introduction)
   - [The challenge](#the-challenge)
   - [Links](#links)
-  - [Screenshots](#screenshots)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -80,13 +80,9 @@ Additional challenge for accessibility:
 - [👨‍🏫 Frontend Mentor Solution]()
 - [📖 My Walkthrough]()
 
-### Screenshots
+### Screenshot
 
-Desktop
 ![Desktop](./screenshots/desktop.jpg)
-
-Mobile
-![Mobile](./screenshots/mobile.jpg)
 
 <!-- ENDOF Overview -->
 
