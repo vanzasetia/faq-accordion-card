@@ -601,12 +601,11 @@ br + br {
 }
 @media screen and (min-width: 64em) {
   .card {
-    background-image: url("../images/bg-pattern-desktop.svg")
-    url("../images/illustration-woman-desktop.svg");
-    background-position: left center, left center;
-    background-size: 100%, 50% 100%;
+    background-image: url("../images/bg-pattern-desktop.svg"), url("../images/illustration-woman-online-desktop.svg");
+    background-position: left center, left -6.25rem center;
+    background-size: 50%, 50%;
     padding: 3.125rem;
-    max-width: 100%;
+    max-width: 56.25rem;
     overflow: visible;
   }
 }
@@ -658,10 +657,10 @@ br + br {
 }
 
 .card__illustration-box {
-  position: absolute;
-  top: 50%;
-  z-index: 100;
-  transform: translateY(-50%);
+  position: relative;
+  top: 2.5rem;
+  left: -0.625rem;
+  transform: scale(0.8);
 }
 
 /*------------------------------------*\
@@ -714,7 +713,7 @@ br + br {
   color: #f47c57;
 }
 .accordion__trigger:focus-visible {
-  outline: 0.125em dotted #111;
+  outline: 0.125em dotted #111111;
   outline-offset: 0.09em;
 }
 
@@ -724,11 +723,11 @@ br + br {
   }
 }
 
-.accordion__trigger[aria-expanded="true"] {
+.accordion__trigger[aria-expanded=true] {
   font-weight: 700;
 }
 
-.accordion__trigger[aria-expanded="true"] .accordion__icon {
+.accordion__trigger[aria-expanded=true] .accordion__icon {
   transform: rotate(180deg);
 }
 
