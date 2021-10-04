@@ -8,7 +8,7 @@
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/vanzasetia/faq-accordion-card?style=for-the-badge&logo=github">
   <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/faq-accordion-card?style=for-the-badge&logo=git">
-  <img alt="Netlify" src="https://img.shields.io/netlify/?style=for-the-badge&logo=netlify">
+  <img alt="Netlify" src="https://img.shields.io/netlify/95a36109-0997-428b-bf74-371aebb23ade?style=for-the-badge&logo=netlify">
   <img alt="GitHub" src="https://img.shields.io/github/license/vanzasetia/faq-accordion-card?color=green&style=for-the-badge&logo=github">
 </p>
 <!-- ENDOF Badges -->
