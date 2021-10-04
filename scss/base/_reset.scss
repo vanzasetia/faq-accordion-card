@@ -175,3 +175,9 @@ br + br {
     display: none;
   }
 }
+
+.hide-for-desktop {
+  @include breakpoint-up("tiny") {
+    display: none;
+  }
+}
