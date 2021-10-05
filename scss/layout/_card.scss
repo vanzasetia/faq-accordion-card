@@ -12,7 +12,9 @@
   background-position: top center;
   padding: rem(110) rem(20) rem(50);
   width: 100%;
-  max-width: rem(330);@include breakpoint-up("tiny") {
+  max-width: rem(330);
+
+  @include breakpoint-up("tiny") {
     background-image: url("../images/bg-pattern-desktop.svg"),
     url("../images/illustration-woman-online-desktop.svg");
     background-position: left -#{rem(550)} top 60%, left -#{rem(100)} center;
@@ -26,7 +28,9 @@
 .card__container {
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;@include breakpoint-up("tiny") {
+  align-items: center;
+
+  @include breakpoint-up("tiny") {
     flex-direction: row-reverse;
   }
 }
@@ -39,14 +43,18 @@
 
 .card__title {
   text-align: center;
-  font-size: rem(30);@include breakpoint-up("tiny") {
+  font-size: rem(30);
+
+  @include breakpoint-up("tiny") {
     text-align: left;
   }
 }
 
 .card__illustration {
   position: absolute;
-  top: -#{rem(100)};@include breakpoint-up("tiny") {
+  top: -#{rem(100)};
+
+  @include breakpoint-up("tiny") {
     position: relative;
     top: initial;
     left: -#{rem(130)};
@@ -65,4 +73,8 @@
   top: rem(40);
   left: -#{rem(10)};
   transform: scale(0.8);
+
+  @include breakpoint-down("tiny") {
+    display: none;
+  }
 }
