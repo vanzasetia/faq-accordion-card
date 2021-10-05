@@ -75,7 +75,9 @@ Additional challenge for accessibility:
 - User should be able to understand the page content when using screen reader
 
 ### Links
-- [🌐 Live Review](https://vanzafaqaccordioncard.netlify.app/)
+- 🌐 Live Review
+  - [With JavaScript](https://vanzafaqaccordioncard.netlify.app/)
+  - [No JavaScript](https://vanzafaqaccordioncard.netlify.app/noscript)
 - [👨‍🏫 Frontend Mentor Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-html-css-sass-js-_q7xr4WYp)
 - [📖 My Walkthrough](https://community.codenewbie.org/vanzasetia/how-i-handle-the-accordion-functionality-walkthrough-29n0)
 
