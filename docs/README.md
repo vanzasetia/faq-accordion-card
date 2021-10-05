@@ -50,3 +50,5 @@ I don't know which text that uses that color 😅.
 - [Markup Validation Service](https://validator.w3.org/) - I validate my HTML markup with this tool.
 - [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I validate my CSS code with this tool.
 - [Site Shot](https://www.site-shot.com/) - I take screenshot with of my website with it.
+- [Twitter Card Validator](https://cards-dev.twitter.com/validator) - To take a look how it looks like when I share my project on Twitter.
+- [Facebook Debugger](https://developers.facebook.com/tools/debug/) - Just like the tool above, but this one for Facebook.
