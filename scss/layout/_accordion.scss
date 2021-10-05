@@ -42,9 +42,13 @@
   cursor: pointer;
   padding: rem(7) 0;
   width: 100%;
-  font-size: rem(13);@include on-event {
+  font-size: rem(13);
+  
+  @include on-event {
     color: $accordion-button-trigger-active-color;
-  }@include focus-visible;
+  }
+  
+  @include focus-visible;
 }
 
 .accordion__icon {
