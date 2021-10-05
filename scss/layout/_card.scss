@@ -73,8 +73,4 @@
   top: rem(40);
   left: -#{rem(10)};
   transform: scale(0.8);
-
-  @include breakpoint-down("tiny") {
-    display: none;
-  }
 }

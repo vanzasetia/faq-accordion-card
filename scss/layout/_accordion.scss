@@ -81,13 +81,13 @@
 .accordion__summary {
   display: flex;
   justify-content: space-between;
-  padding: 0.4375rem 0;
   cursor: pointer;
+  padding: 0.4375rem 0;
   font-size: rem(13);
-
+  
   @include on-event {
     color: $accordion-button-trigger-active-color;
   }
-
+  
   @include focus-visible;
 }
