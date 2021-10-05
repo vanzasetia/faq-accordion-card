@@ -76,8 +76,8 @@ Additional challenge for accessibility:
 
 ### Links
 - [🌐 Live Review](https://vanzafaqaccordioncard.netlify.app/)
-- [👨‍🏫 Frontend Mentor Solution]()
-- [📖 My Walkthrough]()
+- [👨‍🏫 Frontend Mentor Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-html-css-sass-js-_q7xr4WYp)
+- [📖 My Walkthrough](https://community.codenewbie.org/vanzasetia/how-i-handle-the-accordion-functionality-walkthrough-29n0)
 
 ### Screenshot
 
