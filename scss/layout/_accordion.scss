@@ -49,6 +49,12 @@
   }
   
   @include focus-visible;
+
+  @include breakpoint-up("tiny") {
+    &:focus-visible {
+      outline-width: 0.2em;
+    }
+  }
 }
 
 .accordion__icon {
@@ -90,4 +96,10 @@
   }
   
   @include focus-visible;
+
+  @include breakpoint-up("tiny") {
+    &:focus-visible {
+      outline-width: 0.2em;
+    }
+  }
 }
